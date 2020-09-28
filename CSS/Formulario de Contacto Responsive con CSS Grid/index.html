@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto Responsive con CSS Grid</title>
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="logo">Contact <span>Us</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form action="">
+                    <p>
+                        <label for="fullname">Fullname</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </p>
+                    <p>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone">Telephone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <p>
+                        <label for="affair">Affair</label>
+                        <input type="text" name="affair" id="affair">
+                    </p>
+                    <p class="block">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Falucho 4121</li>
+                    <li><i class="fas fa-mobile-alt"></i> 3424722080</li>
+                    <li><i class="fas fa-envelope-open-text"></i> ale.pissotti@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   Nulla eos ducimus quo quae dolores corporis fugit tenetur adipisci,
+                   est debitis impedit qui. Minima consequuntur sed ut expedita nostrum? Impedit, veritatis!
+                </p>
+                <p>Alejandro-pissotti.com.ar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
